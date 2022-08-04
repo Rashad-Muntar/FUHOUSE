@@ -1,16 +1,14 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Navbar from '../src/layout/navbar'
-import Headers from '../src/headers'
+import Navbar from '../src/components/layout/navbar'
+import Headers from '../src/components/layout/headers'
 
 const Home: NextPage = () => {
   return (
-    <div >
-      <Headers title='Home page'/>
-      <main className='text-3xl font-bold underline'>
+    <div>
+      <Headers title="Home page" />
+      <main className="w-screen overflow-hidden">
         <Navbar />
       </main>
-
     </div>
   )
 }
