@@ -1,7 +1,5 @@
-const Navbar  = () => {
-    return (
-        <div className="border-2 h-2">NABVAR</div>
-    )
+const Navbar = () => {
+  return <div className="text-3xl font-bold underline">NABVAR</div>
 }
 
 export default Navbar

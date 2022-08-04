@@ -7,8 +7,7 @@ const Home: NextPage = () => {
   return (
     <div >
       <Headers title='Home page'/>
-
-      <main>
+      <main className='text-3xl font-bold underline'>
         <Navbar />
       </main>
 
