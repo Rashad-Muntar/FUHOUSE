@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Headers title="Home page" />
-      <main className="w-screen overflow-hidden">
+      <main className="w-screen overflow-hidden flex flex-direction-column justify-center">
         <Navbar />
       </main>
     </div>
