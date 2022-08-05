@@ -1,13 +1,12 @@
-import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpider } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className=" w-[90%] flex justify-between items-center">
+    <div className=" w-full flex justify-between items-center">
       <FontAwesomeIcon icon={faSpider} width={40} height={40} className="border-2"/>
-      <div className="flex  min-w-[25rem] justify-between items-center">
+      <div className="flex justify-between items-center">
         <a>
           <Link href="#">Home</Link>
         </a>
