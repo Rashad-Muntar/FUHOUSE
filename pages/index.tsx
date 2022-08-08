@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Headers title="Home page" />
-      <main className=" border-2 overflow-hidden flex flex-col justify-center">
+      <main className="overflow-hidden flex flex-col justify-center">
         <Navbar />
         <Hero />
       </main>
