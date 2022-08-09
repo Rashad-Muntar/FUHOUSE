@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Navbar from '../src/components/layout/navbar'
 import Headers from '../src/components/layout/headers'
-import Hero from '../src/components/heroSection'
+import Hero from '../src/components/Homepage/heroSection'
 
 const Home: NextPage = () => {
   return (
