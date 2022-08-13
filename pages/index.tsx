@@ -5,6 +5,9 @@ import Hero from '../src/components/Homepage/heroSection'
 import Testimony from '../src/components/Homepage/testimony'
 import Partners from '../src/components/Homepage/partners'
 import HowItWorks from '../src/components/Homepage/howItWorks'
+import Locations from '../src/components/Homepage/locations'
+import Recommendations from '../src/components/Homepage/receommendations'
+
 const Home: NextPage = () => {
   return (
     <>
@@ -15,6 +18,8 @@ const Home: NextPage = () => {
         <Testimony />
         <Partners />
         <HowItWorks />
+        <Locations />
+        <Recommendations />
       </main>
     </>
   )

@@ -17,7 +17,7 @@ const HowItWorks = () => {
           <div className=' flex flex-col items-center m-12'>
             <FontAwesomeIcon
               icon={faSearch}
-              className="max-w-[5rem] bg-primary-default p-7 rounded-2xl text-white"
+              className="max-w-[4rem] bg-primary-default p-6 rounded-2xl text-white"
             />
             <p className='font-semibold mt-6'>Research Suburbs</p>
             <small className='text-primary-default text-center'>
@@ -30,7 +30,7 @@ const HowItWorks = () => {
           <div className='flex flex-col items-center m-12'>
             <FontAwesomeIcon
               icon={faMoneyBill}
-              className="max-w-[5rem] bg-primary-default p-7 rounded-2xl text-white"
+              className="max-w-[4rem] bg-primary-default p-6 rounded-2xl text-white"
             />
             <p className='font-semibold mt-6'>Research Suburbs</p>
             <small className='text-primary-default text-center'>
@@ -43,7 +43,7 @@ const HowItWorks = () => {
           <div className='flex flex-col items-center m-12'>
             <FontAwesomeIcon
               icon={faHouse}
-              className="max-w-[5rem] bg-primary-default p-7 rounded-2xl text-white"
+              className="max-w-[4rem] bg-primary-default p-6 rounded-2xl text-white"
             />
             <p className='font-semibold mt-6'>Research Suburbs</p>
             <small className='text-primary-default text-center'>
