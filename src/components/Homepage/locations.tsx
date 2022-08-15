@@ -1,9 +1,6 @@
 import Headings from "../../shared/headings"
 import SectionWrapper from "../../shared/sectionWrapper"
-import accra from "../../../public/images/accra.jpg"
-import kumasi from "../../../public/images/kumasi.jpg"
-import takoradi from "../../../public/images/takoradi.jpg"
-import sunyani from "../../../public/images/sunyani.jpg"
+
 import Image from "next/image"
 
 const Locations  = () => {

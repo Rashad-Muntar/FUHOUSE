@@ -1,8 +1,10 @@
+import { StaticImageData } from "next/image"
 import Image from "next/image"
 
 
+
 interface Props {
-    image: string
+    image: StaticImageData
     styles: string
     homeType: string
     title:string
@@ -21,6 +23,7 @@ const ProductCard  = ({
                 <div>{homeType}</div>
             </div>
             <p>{title}</p>
+            <p>{shortDesc}</p>
         </div>
     )
 }
