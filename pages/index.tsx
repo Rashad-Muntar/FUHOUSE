@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Headers title="Home page" />
-      <main className="overflow-hidden flex flex-col justify-center">
+      <div className="overflow-hidden flex flex-col justify-center">
         <Navbar />
         <Hero />
         <Testimony />
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <HowItWorks />
         <Locations />
         <Recommendations />
-      </main>
+      </div>
     </>
   )
 }

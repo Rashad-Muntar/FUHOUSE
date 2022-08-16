@@ -10,23 +10,14 @@ const Navbar = () => {
     <div className=" w-full flex justify-between items-center">
       <FontAwesomeIcon icon={faSpider} width={40} height={40} className="border-2"/>
       <div className="flex justify-between w-[25rem] max-w-[30rem] items-center">
-        <a>
-          <Link href="#">Home</Link>
-        </a>
-        <a >
+          <Link href="#" className='bg-primary-default'>Home</Link>
           <Link href="#">About</Link>
-        </a>
-        <a >
           <Link href="#">Service</Link>
-        </a>
-        <a >
           <Link href="#">Portfolio</Link>
-        </a>
-        <a >
           <Link href="#">Blog</Link>
-        </a>
-        <Button colorScheme='blue'>Contact</Button>
+          <Button colorScheme='blue'>Contact</Button>
       </div>
+
     </div>
   )
 }

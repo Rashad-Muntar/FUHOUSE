@@ -1,12 +1,13 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import { ChakraProvider } from '@chakra-ui/react'
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
-  <Component {...pageProps} />
-  </ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
   )
 }
 
