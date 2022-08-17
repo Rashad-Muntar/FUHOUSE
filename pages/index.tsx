@@ -7,6 +7,7 @@ import Partners from '../src/components/Homepage/partners'
 import HowItWorks from '../src/components/Homepage/howItWorks'
 import Locations from '../src/components/Homepage/locations'
 import Recommendations from '../src/components/Homepage/receommendations'
+import ReadyToSell from '../src/components/Homepage/readyToSell'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <HowItWorks />
         <Locations />
         <Recommendations />
+        <ReadyToSell />
       </div>
     </>
   )

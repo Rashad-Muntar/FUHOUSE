@@ -21,7 +21,7 @@ const Recommendations = () => {
       <Headings title="Our recommendations" />
       <Swiper
         modules={[Navigation]}
-        spaceBetween={50}
+        spaceBetween={5}
         navigation
         slidesPerView={3}
         onSlideChange={() => console.log('slide change')}
